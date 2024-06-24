@@ -5,100 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
 </head>
 
-<style>
-
-    .img-thumbnail{
-        border-color: black;
-        border-radius: 2px;
-        width: 500px;
-        height: 500px;
-        border-style: double;
-        
-        
-
-    }
-
-    .rounded-circle{
-        border-color:black;
-        border-radius: 5px;
-        width: 200px;
-        height: 200px;
-        
-
-    }
-
-    p{
-        color:black;
-        font-size:25px;
-        
-    }
-
-    .p2{
-        text-align:center;
-        position: fixed;
-        top: 10px;
-        left: 35%;
-        margin: 40px;
-       
-
-    }
-
-    .btn{
-        width: 430px;
-        margin:25px;
-        color:black;
-        background-color:rgb(202, 219, 234);
-        
-    }
-
-    
-
-
-
-    
-    
-</style>
 <body>
 
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand logo" href="#">Instagram</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="mx-auto">
+                <input class="form-control search-bar" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="menu ml-5 mt-2 d-none d-sm-block">
+                <a href="#">Menu</a>
+            </div>
+        </div>
+    </nav>
 
-    <img src="/desktop-wallpaper-brink-pink-solid-color-background-2560x1600-pink.jpg" class="rounded-circle" alt="..."><br><br>
-    <p> Name Surname</p>
-    <p class="p1">Welcome to my instagram.................. </p>
-
-    <button type="button" class="btn btn-secondary btn-lg">Takip</button>
-    <button type="button" class="btn btn-secondary btn-lg">Mesaj</button>
-    <button type="button" class="btn btn-secondary btn-lg">Abone Ol</button>
-
-
-
-    <p class="p2"> 3 gönderi  ||  5k takipçi  ||  1k takip</p>
     
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-lg-4"></div> 
+            <div class="col-lg-8 col-md-6 col-sm-12 mt-2 middlearea">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <div>Goksu Ayaz</div>
+                        <div>...</div>
+                    </div>
+                    <div class="card-body">
+                        <img src="/desktop-wallpaper-brink-pink-solid-color-background-2560x1600-pink.jpg" class="img-fluid" alt="Post">
+                    </div>
+                    <div class="card-footer bg-white">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <span>Like</span>
+                                <span>Comment</span>
+                                <span>Share</span>
+                            </div>
+                            <div class="offset-7">
+                                <span>Bookmark</span>
+                            </div>
+                        </div>
+                        <div class="text-right">Share your comment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <br>
-    <br>
-
-    <img src="/desktop-wallpaper-brink-pink-solid-color-background-2560x1600-pink.jpg" class="img-thumbnail" alt="...">
-    <img src="/desktop-wallpaper-pink-color-background-pink-solid-color.jpg" class="img-thumbnail" alt="...">
-    <img src="/b0f613f449f353ff46205963a895a548.jpg" class="img-thumbnail" alt="...">
-    
-
-   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="stickysidebar rightpanel bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-right">Tümünü gör</h5>
+                    <p class="text-right">Takip et</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
